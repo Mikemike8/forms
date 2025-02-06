@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Me </title>
+</head>
+<body>
+    <header><h1>Michael Harris Form</h1></header>
+    <main class="contact-container">
+        <aside style="float: right;">
+
+            <h2>Color</h2>
+            <input type="color"/> <br/>
+            <h2>Date</h2>
+            <input type="date"/> <br/>
+            <h2>File</h2>
+            <input type="file" multiple/> <br/>
+            <input type="hidden"/> <br/>
+            <h2>Number</h2>
+            <input type="number"/> <br/>
+            <h2>Password</h2>
+            <input type="password"> <br/>
+            <h2>Search Bar</h2>
+            <input type="search">
+            <h2>Phone Number</h2>
+            <input type="tel">
+            <!-- input shorthand -->
+            <h2>Email</h2>
+            <input type="email" name="email" id=""> 
+            <h2>Password</h2>
+            <input type="password" name="password" id="">
+        </aside>
+        <div class="formfit">
+            <ul>
+                <ol><form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                </ol>
+                <ol><input type="hidden" name="access_key" value="61aba53d-471b-4ac7-8517-73a1a442e20d">
+                </ol>
+                <ol> <label for="name">Your Name:</label>
+                </ol>
+                <ol> <input type="text" name="name" placeholder="Name" class="contact-inputs"required>
+                </ol>
+                <ol><input type="email" name="Email" placeholder="Email" class="contact-inputs"required>
+                </ol>
+                <ol> <textarea name="" id="" placeholder="message" class="contact-inputs" ></textarea>
+                </ol>
+                
+            
+            </ul> 
+            <br>
+            <br>
+            <br>
+            <label for="subject-select">How may i help?</label>
+            <select name="subject-select" id="subject">
+                <option value="">select an option</option>
+                <option value="web deployment Inquiry">Build A web site.</option>
+                <option value="Coding Lesson Inquiry ">Teach me how to code.</option>
+            </select>
+            <p></p>
+            <br>
+            <br>
+            <br>
+            <label for="yourmessage">Tell Me  More</label>
+            <textarea name="body" id="yourmessage"></textarea>
+            <p></p>
+            <input type="submit" value=" Contact Me" />
+            <!-- <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <input type="hidden" name="access_key" value="61aba53d-471b-4ac7-8517-73a1a442e20d">
+                <label for="name">Your Name:</label>
+                <input type="text" name="name" placeholder="Name" class="contact-inputs"required>
+                <input type="email" name="email" placeholder="Email" class="contact-inputs"required>
+                <textarea name="name" id="" placeholder="message" class="contact-inputs" ></textarea>
+                <input type="submit" value="Send message" />
+            </form>  -->
+        </div>
+    </main>
+
+    <footer><a href="https://github.com/Mikemike8">My Github</a></footer>
+
+
+    
+</body>
+</html>
